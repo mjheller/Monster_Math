@@ -50,7 +50,7 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
-    <ProjectReference Include="..\ClassLibrary1\devCodeCampExtendedMath.csproj">
+    <ProjectReference Include="..\devCodeCampExtendedMath\devCodeCampExtendedMath.csproj">
       <Project>{eb1bb716-d725-4f53-9e84-affcd450f582}</Project>
       <Name>devCodeCampExtendedMath</Name>
     </ProjectReference>

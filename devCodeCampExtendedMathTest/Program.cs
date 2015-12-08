@@ -15,14 +15,29 @@ namespace devCodeCampExtendedMathTest
         {
             int index = 1;
             List<int> happyNumberList;
-            happyNumbers happyNumbers = new happyNumbers();
-            happyNumberList = happyNumbers.toNthHappyNumber(2000);
-            foreach(int i in happyNumberList)
+        //HappyNumber
+            happyNumberList = MathBlaster.toNthHappyNumber(1000);
+            foreach (int i in happyNumberList)
             {
                 Console.WriteLine("HappyNumber " + i + " -- Count  " + index);
                 index++;
             }
-            string keepopen = Console.ReadLine();
+        //Euclidean
+            int test = MathBlaster.Euclideanize(833, 324);
+            Console.WriteLine("EUCLIDEAN");
+            Console.WriteLine("Euclideanize: " + test);
+            
+       //RomanNumeral
+            string num = "55";
+            MathBlaster.RomanNumeralInteragize(ref num);
+            Console.WriteLine("ROMAN NUMERAL INTERAGIZE");
+            Console.WriteLine(num);
+            string wait = Console.ReadLine();
+            
+            
+
+            
+
         }
     }
 }

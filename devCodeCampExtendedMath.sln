@@ -5,7 +5,7 @@ VisualStudioVersion = 14.0.23107.0
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "devCodeCampExtendedMathTest", "devCodeCampExtendedMathTest\devCodeCampExtendedMathTest.csproj", "{31949363-7F88-417E-9ECF-02361227C02D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "devCodeCampExtendedMath", "ClassLibrary1\devCodeCampExtendedMath.csproj", "{EB1BB716-D725-4F53-9E84-AFFCD450F582}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "devCodeCampExtendedMath", "devCodeCampExtendedMath\devCodeCampExtendedMath.csproj", "{EB1BB716-D725-4F53-9E84-AFFCD450F582}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
