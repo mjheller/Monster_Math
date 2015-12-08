@@ -117,7 +117,33 @@ namespace devCodeCampExtendedMath
             num = romanNumeral;
 
         }
+        public static bool isNarcissistic(int num)
+        {
+            if (num < 0)
+                return false;
+            string numberString = num.ToString();
+            int sum = 0;
+            int intLength = numberString.Length;
+            foreach (char c in numberString)
+                sum += Convert.ToInt32(Math.Pow(Convert.ToDouble(c - 48), intLength));
 
+            return sum == num;
+        }
+        public static void toNthNarcissisticNumber(int count)
+        {
+            int counter = 0;
+            int x = 0;
+            while (counter < count)
+            {
+                if (isNarcissistic(x))
+                {
+                    Console.WriteLine(x);
+                    counter++;
+                }
+                x++;
+            }
+
+        }
     }
 }
 

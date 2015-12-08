@@ -16,7 +16,7 @@ namespace devCodeCampExtendedMathTest
             int index = 1;
             List<int> happyNumberList;
         //HappyNumber
-            happyNumberList = MathBlaster.toNthHappyNumber(1000);
+            happyNumberList = MathBlaster.toNthHappyNumber(2);
             foreach (int i in happyNumberList)
             {
                 Console.WriteLine("HappyNumber " + i + " -- Count  " + index);
@@ -24,19 +24,21 @@ namespace devCodeCampExtendedMathTest
             }
         //Euclidean
             int test = MathBlaster.Euclideanize(833, 324);
-            Console.WriteLine("EUCLIDEAN");
+            Console.WriteLine("\n EUCLIDEAN");
             Console.WriteLine("Euclideanize: " + test);
             
        //RomanNumeral
             string num = "55";
             MathBlaster.RomanNumeralInteragize(ref num);
-            Console.WriteLine("ROMAN NUMERAL INTERAGIZE");
+            Console.WriteLine("\n ROMAN NUMERAL INTERAGIZE");
             Console.WriteLine(num);
-            string wait = Console.ReadLine();
-            
-            
 
-            
+       //NarcissisticNumbers
+            Console.WriteLine("\n Narcissistic Numbers");
+            MathBlaster.toNthNarcissisticNumber(20);
+            string keepopen = Console.ReadLine();
+
+
 
         }
     }
